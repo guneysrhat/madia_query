@@ -47,13 +47,26 @@ h1 {
 }
 .row {
   display: flex;
+  flex-wrap: wrap;
   text-align: center;
+  justify-content: center;
 }
 .col {
+  padding: 1rem;
 }
 .fs {
+  width: 35%;
+  background-color: var(--gri-5);
 }
 .aws {
+  width: 20%;
+  background-color: var(--gri-6);
 }
 .data {
+  width: 30%;
+  background-color: var(--gri-7);
+}
+.cms {
+  width: 15%;
+  background-color: var(--gri-8);
 }
