@@ -16,7 +16,7 @@ h1 {
   background-color: var(--koyu-kirmizi);
   width: 20rem;
   padding: 0.5rem;
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 30px;
   text-align: center;
   margin: 2rem auto;
@@ -69,4 +69,34 @@ h1 {
 .cms {
   width: 15%;
   background-color: var(--gri-8);
+}
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  body {
+    color: var(--beyaz);
+    background-color: var(--acik-kirmizi);
+  }
+  .col {
+    width: 50%;
+    margin: 0.5rem 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    color: var(--beyaz);
+    background-color: var(--mor);
+  }
+  .col {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+  .navbar {
+    flex-direction: column;
+
+    text-align: center;
+  }
+
+  .header {
+    display: none;
+  }
 }
